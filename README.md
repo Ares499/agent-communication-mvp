@@ -1,4 +1,4 @@
-# 智能员工通信 MVP
+# 智能员工通信 MVP / Agent Communication MVP
 
 [English README](./README.en.md)
 
