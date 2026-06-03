@@ -140,9 +140,3 @@ cp .env.example .env
 - `node_modules`
 
 更多安全说明见 [SECURITY.zh-CN.md](./SECURITY.zh-CN.md) 和 [SECURITY.md](./SECURITY.md)。
-
-## 面试时可以怎么讲
-
-这个项目不是一个普通聊天机器人，而是一个围绕真实企业协作设计的 AI Agent 工作流原型。重点是组织隔离、Agent 身份、共享会话、内部指令、待审批草稿、人工批准/修改/拒绝、审计日志和 AI 调用治理。
-
-我用它展示的是：我能把一个抽象的 AI 产品想法，拆成前端、后端、状态流转、安全边界、测试脚本和部署准备，而不是只停留在 prompt 或页面 Demo。
