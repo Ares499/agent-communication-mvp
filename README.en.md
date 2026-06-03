@@ -142,6 +142,8 @@ The public repository intentionally excludes:
 - release archives
 - `node_modules`
 
+For more details, see [SECURITY.md](./SECURITY.md) and [SECURITY.zh-CN.md](./SECURITY.zh-CN.md).
+
 ## Portfolio Positioning
 
 This project demonstrates:
