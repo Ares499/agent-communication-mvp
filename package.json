@@ -1,0 +1,30 @@
+{
+  "name": "agent-communication-mvp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "server": "node server/server.mjs",
+    "start": "node server/server.mjs",
+    "client": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "release:package": "node scripts/release-package.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:ai": "node scripts/ai-prep-smoke.mjs",
+    "smoke:v02": "node scripts/v02-llm-smoke.mjs",
+    "smoke:ops": "node scripts/operational-smoke.mjs",
+    "e2e:production": "node scripts/production-e2e.mjs",
+    "audit:production": "node scripts/production-audit.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "vite": "^7.2.4"
+  }
+}
